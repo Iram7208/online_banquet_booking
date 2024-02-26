@@ -1,5 +1,5 @@
      <?php
-session_start();
+//session_start();
 error_reporting(0);
 include('includes/dbconnection.php');
 if (strlen($_SESSION['odmsaid']==0)) {
