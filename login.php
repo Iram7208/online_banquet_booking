@@ -18,7 +18,7 @@ foreach ($results as $result) {
 $_SESSION['obbsuid']=$result->ID;
 }
 $_SESSION['login']=$_POST['email'];
-echo "<script type='text/javascript'> document.location ='index.php'; </script>";
+echo "<script type='text/javascript'> document.location ='dashboard.php'; </script>";
 } else{
 echo "<script>alert('Invalid Details');</script>";
 }
