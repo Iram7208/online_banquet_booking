@@ -6,6 +6,8 @@
     </head>
     <body>
         <div id="page-container" class="sidebar-o sidebar-inverse side-scroll page-header-fixed main-content-narrow">
+
+         <div>My Sidebar</div>
          
          <?php include_once('includes/sidebar.php');?>
 
