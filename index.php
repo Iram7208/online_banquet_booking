@@ -145,6 +145,21 @@ foreach($results as $row)
 	</script>
 <!-- //here ends scrolling icon -->
 <script src="js/modernizr.custom.js"></script>
+	<script>
+    $(document).ready(function() {
+        // Function to toggle the chatbot iframe visibility
+        function toggleChatbot() {
+            var chatbotFrame = $("#chatbotFrame");
+            chatbotFrame.toggle();
+        }
 
+        // Attach click event to the toggle button
+        $("#toggleChatbot").click(function() {
+            toggleChatbot();
+        });
+    });
+</script>
+<button id="toggleChatbot" style="position: fixed; bottom: 20px; right: 20px; z-index: 999;">Toggle Chatbot</button>
+<iframe id="chatbotFrame" src="https://webchat.botframework.com/embed/banquetmanagement-bot?s=Ud-O7xIhOLs.s_m2z9syutmyeSftp81niCf9hJ-d8sHAjg5_fypQ67g" style="display: none; height: 502px; max-height: 502px; position: fixed; bottom: 0; right: 0;"></iframe>
 </body>	
 </html>
