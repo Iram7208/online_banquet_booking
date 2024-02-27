@@ -60,7 +60,7 @@ echo "<script>alert('Invalid Details');</script>";
                                     Online Banquet Booking System.
                                 </p>
                                 <p class="font-italic text-white-op">
-                                    Developed by &copy; <span class="js-year-copy">IRAM ANSARI</span>
+                                    Developed by &copy; IRAM ANSARI
                                 </p>
                             </div>
                         </div>
