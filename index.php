@@ -160,6 +160,6 @@ foreach($results as $row)
     });
 </script>
 <button id="toggleChatbot" style="background-color:black; color:white; font-size: 15px; position: fixed; bottom: 25px; right: 30px; z-index: 999;">Chat Us</button>
-<iframe id="chatbotFrame" src="https://webchat.botframework.com/embed/banquetmanagement-bot?s=Ud-O7xIhOLs.s_m2z9syutmyeSftp81niCf9hJ-d8sHAjg5_fypQ67g" style="display: none; height: 502px; max-height: 502px; position: fixed; bottom: 0; right: 0;"></iframe>
+<iframe id="chatbotFrame" src="https://webchat.botframework.com/embed/banquetmanagement-bot?s=Ud-O7xIhOLs.s_m2z9syutmyeSftp81niCf9hJ-d8sHAjg5_fypQ67g" style="display: none; height: 400px; max-height: 400px; position: fixed; bottom: 0; right: 0;"></iframe>
 </body>	
 </html>
