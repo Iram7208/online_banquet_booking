@@ -44,7 +44,7 @@ include('includes/dbconnection.php');
 	<div class="banner jarallax">
 		<div class="agileinfo-dot">
 			<?php include_once('includes/header.php');?>
-			<div class="">
+			<div class="w3layouts-banner">
 				<div class="container">
 					<div class="w3-banner-info">
 						<div class="w3l-banner-text">
