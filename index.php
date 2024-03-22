@@ -69,13 +69,13 @@ if($query->rowCount() > 0)
 foreach($results as $row)
 {               ?>
 						<div class="col-md-4 banner-address-left">
-							<p><i class="fa fa-map-marker" aria-hidden="true"></i> <?php  echo htmlentities($row->PageDescription);?>.</p>
+							<p><i class="fa fa-map-marker" aria-hidden="true"></i> <?php  echo htmlentities($row->PageDescription);?>D-204, Dargah Rd, Mumbai-400026, India.</p>
 						</div>
 						<div class="col-md-4 banner-address-left">
-							<p><i class="fa fa-envelope" aria-hidden="true"></i> <?php  echo htmlentities($row->Email);?></p>
+							<p><i class="fa fa-envelope" aria-hidden="true"></i> <?php  echo htmlentities($row->Email);?>ansariiramm@gmail.com</p>
 						</div>
 						<div class="col-md-4 banner-address-left">
-							<p><i class="fa fa-phone" aria-hidden="true"></i> +<?php  echo htmlentities($row->MobileNumber);?></p>
+							<p><i class="fa fa-phone" aria-hidden="true"></i> +<?php  echo htmlentities($row->MobileNumber);?> +91 7208797822</p>
 						</div>
 						<div class="clearfix"> </div>
 					<?php $cnt=$cnt+1;}} ?></div>
