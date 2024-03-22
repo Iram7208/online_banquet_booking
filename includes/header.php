@@ -2,7 +2,7 @@
                 <div class="container">
                     <div class="header-top-grids">
                         <div class="agileits-logo">
-                           <h1><a class='banquet' href="index.php"> BANQUET </a></h1>
+                           <h2><a class='banquet' href="index.php"> BANQUET </a></h2>
                         </div>
                         <div class="top-nav">
                             <nav class="navbar navbar-default">
