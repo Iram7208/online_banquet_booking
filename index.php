@@ -48,8 +48,8 @@ include('includes/dbconnection.php');
 				<div class="container">
 					<div class="w3-banner-info">
 						<div class="w3l-banner-text">
-							<h2>Wedding Venue</h2>
-							<p>We create your special day</p>
+							<h2>MARRIAGE VENUE </h2>
+							<p>We are here to create your special day</p>
 						</div>
 					</div>
 				</div>
@@ -92,7 +92,7 @@ foreach($results as $row)
 					<div class="w3-agileits-bottom-left">
 						<div class="w3-agileits-bottom-left-text">
 							<h3>Planning from start to finish</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id lacus vel purus sagittis convallis ut ac risus.</p>
+							<p>We plan from starting of your Wedding to the Finish with the right budget making the day more special with experience.</p>
 						</div>
 					</div>
 				</div>
@@ -100,7 +100,7 @@ foreach($results as $row)
 					<div class="w3-agileits-bottom-left w3-agileits-bottom-right">
 						<div class="w3-agileits-bottom-left-text">
 							<h3>LET THE EXPERTS RUN YOUR WEDDING</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id lacus vel purus sagittis convallis ut ac risus.</p>
+							<p>Our expert team will run your special day arrangements so you can enjoy the day as expected.</p>
 						</div>
 					</div>
 				</div>
